@@ -1,8 +1,9 @@
 body{
     margin: 0;
     background-image: url(back.png);
-    background-size: 100%;
-    font-family: 'Comfortaa', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
     font-family: 'Kanit', sans-serif;
     font-family: 'Poppins', sans-serif;
 
@@ -51,5 +52,15 @@ p{
     text-align: center;
     position: relative;
     top: 20px;
+}
+@media only screen and (max-width:1024px) {
+    .img img{
+            display: inline-block;
+            position: relative;
+            left:-190px;
+
+
+    }
+  
 }
 
